@@ -1,5 +1,5 @@
 export class NoPatternsValidation {
-    isValid(arr: string[]){
+    public isValid(arr: string[]){
         return arr.length === 0;
     }
 }
